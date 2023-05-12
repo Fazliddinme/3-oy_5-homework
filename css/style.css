@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    max-width: 1440px;
+    justify-content: center;
+}
+aside{
+    padding-top: 36px;
+    background: #363740;
+    height: 1100px;
+    width: 255px;
+}
+aside a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #DDE2FF;  
+}
+.sidebar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 53px;
+    margin-left: 23px;
+}
+.sidebar a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #A4A6B3;
+    opacity: 0.7;
+    margin-left: 18px;
+}
+.sidebarmenu .item{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    width: 255px;
+    height: 56px;
+    padding: 18px 24px;
+}
+.line{
+    width: 3px;
+    background: #DDE2FF;
+    height: 56px;
+    position: absolute;
+    left: 0px;
+}
+.sidebarmenu .item:hover{
+    background: #9FA2B4;
+    opacity: 10;
+    color: #fff;
+}
+.sidebarmenu .item img{
+    width: 16px;
+    height: 16px;
+}
+.sidebarmenu .item a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #DDE2FF;
+}
+main{
+    width: 1185px;
+    padding: 31px 29px;
+    background: #F3F3F3;
+}
+header{
+    display: flex;
+    gap: 923px;
+}
+.hamburger{
+
+}
+.hamburger img{
+    width: 30px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.portfolio span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.close .item a,
+.close .sidebar a {
+  display: none;
+}
+.bblock{
+    display: flex;
+    align-items: center;
+    gap: 765px;
+    margin-top: 53px;
+}
+.bblock h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 47px;
+    color: #000000;    
+}
+.buttonblock{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+button{
+    width: 71px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    background: #10CD45;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+table{
+    margin-top: 64px;
+}
+table thead th{
+    padding-right: 150px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+table thead th:nth-child(1){
+    padding-right: 239px;
+}
+tbody tr{
+    background-color: #EEF2F5;
+    vertical-align: middle;
+}
+tbody td{
+    padding: 15px 32px 16px 19px;
+}
+tbody tr td span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #414141;
+}
+tbody tr td strong{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #00CA39;
+}
+tbody tr td bold{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E44067;
+}
+tbody tr:nth-child(even){
+    background-color: #fff;
+    vertical-align: middle;
+}
+.footeritem{
+    margin-top: 500px;
+}
+.footeritem .item{ display: flex;
+    align-items: center;
+    gap: 27px;
+    width: 255px;
+    height: 56px;
+    padding: 18px 24px;
+}
